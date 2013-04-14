@@ -1,0 +1,78 @@
+body {
+	position: relative;
+	width: 100%;
+	background: #000021 url(images/wall.png) 50% 50% repeat;
+	font-family: "Lucida Grande", Lucida, Verdana, sans-serif;
+	font-size: 16px;
+	margin: 0 auto 0 auto;
+	padding: 0 0 50px 0;
+	color: white;
+	text-align: center;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+ul#header {
+	position: fixed;
+	top: 0;
+	left: 3.5%;
+	width: 60px;
+	margin: 0;
+	padding: 10px 0;
+	-webkit-padding-start: 0;
+	text-align: left;
+	font-variant: small-caps;
+	background: rgba(255, 255, 255,.05);
+}
+
+
+ul#header li {
+	list-style-type: none;
+	float: left;
+	color: #fff;
+	padding: 0 0 10px 0;
+	font-size: .67em;
+	cursor: pointer;
+}
+
+.section {
+ 	clear: both;
+ 	float: left;
+ 	width: 100%;
+ 	margin: 0 0 0 0;
+}
+
+.section .content {
+	width: 100%;
+	float: left;	
+	background: rgba(0,0,0, .5);
+	margin: 10px 0 10px 0;
+}
+
+.description {
+	width: 150px;
+	float: right;
+	position: relative;
+	bottom: -50px;
+	padding: 0 10px 0 5px;
+	background: rgba(255,255,255,.05);
+	color: rgba(255,255,255, .5);
+	text-align: left;
+	font-size: .75em;
+}
+
+.description p#lead-in {
+	margin-top: -12px;
+	font-size: 2.5em;
+}
+
+.bio {
+	margin: 20px auto;
+	width: 800px;
+	text-align: left;
+	font-size: .875em;
+	color: rgba(255,255,255,.75);
+}
