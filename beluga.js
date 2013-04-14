@@ -6,5 +6,13 @@ $(document).ready(function(){
 
 		$(window).scrollTo(to.offset().top, {duration:1000, easing: "swing"});
 	});
+	
+	$(".media").width("100%");
+	
+	$(".vimeo").height($(".vimeo").width()*.562);
+	$(".flickr").height($(".flickr").width()*.75);
+	
+//	var gapRate = ($(".vimeo").height()*.15)/25;
+//	$("#beluga .gap").css("margin-top", $(".vimeo").height()*gapRate + "px" );
 });
 

@@ -58,7 +58,7 @@ ul#header li {
 }
 
 .description {
-	width: 150px;
+	width: 250px;
 	float: right;
 	position: relative;
 	bottom: -50px;
@@ -73,18 +73,21 @@ ul#header li {
 	position: absolute;
 	top: 20px;
 	right: 0;
-	z-index: -1;
+	z-index: 1;
+	width: 250px;
+	background: rgba(0,0,0,.5);
+	height: 500px;
 }
 
 
 .description p#lead-in {
 	margin-top: -12px;
-	font-size: 2.5em;
+	font-size: 3em;
 }
 
 .bio {
 	margin: 20px auto;
-	width: 800px;
+	width: 80%;
 	text-align: left;
 	font-size: .875em;
 	color: rgba(255,255,255,.75);
