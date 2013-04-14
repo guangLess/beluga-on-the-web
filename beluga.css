@@ -38,6 +38,7 @@ ul#header li {
 	cursor: pointer;
 }
 
+
 .section {
  	clear: both;
  	float: left;
@@ -52,6 +53,10 @@ ul#header li {
 	margin: 10px 0 10px 0;
 }
 
+#beluga .content {
+	margin: 45px 0 0 0;
+}
+
 .description {
 	width: 150px;
 	float: right;
@@ -63,6 +68,14 @@ ul#header li {
 	text-align: left;
 	font-size: .75em;
 }
+
+#beluga .description {
+	position: absolute;
+	top: 20px;
+	right: 0;
+	z-index: -1;
+}
+
 
 .description p#lead-in {
 	margin-top: -12px;
