@@ -1,6 +1,7 @@
 beluga (web version)
 =================
-IAC video wall. 555 W 18th St. New York, NY. New York. December. 2013. <p><a href="https://vimeo.com/47124314">Beluga</a> on Vimeo</a>.</p>
+## <a href="https://vimeo.com/47124314">View Beluga on Vimeo</a>
+IAC video wall. 555 W 18th St. New York, NY. New York. December. 2013. 
 
 <img src="https://farm8.staticflickr.com/7014/6539274325_4f79db33a1_b.jpg" width="420">
 <img src="https://farm8.staticflickr.com/7160/6539309203_4f7a04de98_b.jpg" width="400">
